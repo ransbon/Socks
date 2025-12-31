@@ -1,0 +1,78 @@
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+
+.site-header {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+
+/* Main content */
+
+main {
+  max-width: 480px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  margin: 0;
+  color: #444;
+}
+
+/* Actions */
+
+.actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+}
+
+/* Branding color used sparingly */
+.button.primary {
+  background-color: #46c6e8;
+  color: #ffffff;
+}
+
+.button.secondary {
+  background-color: transparent;
+  color: #46c6e8;
+  border-color: #46c6e8;
+}
+
+/* Footer */
+
+.site-footer {
+  margin-top: auto;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  color: #666;
+}
